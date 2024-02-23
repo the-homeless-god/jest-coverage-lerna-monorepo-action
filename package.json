@@ -1,7 +1,7 @@
 {
     "name": "jest-coverage-lerna-monorepo-action",
     "private": true,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "",
     "main": "dist/index.js",
     "scripts": {
@@ -14,7 +14,10 @@
         "lint": "eslint ."
     },
     "keywords": [],
-    "contributors": ["Artiom Tretjakovas <artiom.tretjakovas2@gmail.com>", "Marat Zimnurov <zimtir@mail.ru>"],
+    "contributors": [
+        "Artiom Tretjakovas <artiom.tretjakovas2@gmail.com>",
+        "Marat Zimnurov <zimtir@mail.ru>"
+    ],
     "license": "MIT",
     "dependencies": {
         "@actions/core": "^1.10.0",
