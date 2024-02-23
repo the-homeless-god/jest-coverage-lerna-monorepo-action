@@ -157,12 +157,16 @@ export const run = async (
         dataCollector,
         async (skip) => {
             if (!isHeadCoverageGenerated || !isThresholdParsed) {
-                skip();
+                return skip();
+            }
+
+            if (!threshold || !headCoverage) {
+                return skip();
             }
 
             return checkThreshold(
-                headCoverage!,
-                threshold!,
+                headCoverage,
+                threshold,
                 options.workingDirectory,
                 dataCollector as DataCollector<unknown>
             );
