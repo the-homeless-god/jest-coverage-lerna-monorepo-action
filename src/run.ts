@@ -186,11 +186,15 @@ export const run = async (
             skip();
         }
 
+        if (!summaryReport) {
+            return skip();
+        }
+
         const octokit = getOctokit(options.token);
 
         if (isInPR) {
             await generatePRReport(
-                summaryReport!.text,
+                summaryReport.text,
                 options,
                 context.repo,
                 options.pullRequest as { number: number },
@@ -213,8 +217,12 @@ export const run = async (
             skip();
         }
 
+        if (!summaryReport) {
+            return skip();
+        }
+
         if (options.output.includes('report-markdown')) {
-            setOutput('report', summaryReport!.text);
+            setOutput('report', summaryReport.text);
         }
     });
 
@@ -232,10 +240,14 @@ export const run = async (
             skip();
         }
 
+        if (!summaryReport) {
+            return skip();
+        }
+
         const octokit = getOctokit(options.token);
         await octokit.rest.checks.create(
             formatFailedTestsAnnotations(
-                summaryReport!.runReport,
+                summaryReport.runReport,
                 failedAnnotations,
                 options
             )
