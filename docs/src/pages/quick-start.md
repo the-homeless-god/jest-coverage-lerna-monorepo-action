@@ -4,7 +4,7 @@ title: Quick start
 
 # The „Quick start“ guide
 
-This guide will teach you how to quickly configure and add Jest Coverage Report action to your project.
+This guide will teach you how to quickly configure and add Jest coverage lerna monorepo action action to your project.
 
 <br/>
 
@@ -39,7 +39,7 @@ bunx jest
 
 <!-- TODO: replace link -->
 
-If this command is not working for you, see [how to setup custom testing script](https://github.com/the-homeless-god/jest-coverage-report-action#customizing-test-script).
+If this command is not working for you, see [how to setup custom testing script](https://github.com/the-homeless-god/jest-coverage-lerna-monorepo-action#customizing-test-script).
 
 3. After that, create new file in your repository, under `.github/workflows` folder. Name this file `coverage-report.yml` (or any another name, just don't forget that extension must be `.yml`).
 
@@ -56,7 +56,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-            - uses: the-homeless-god/jest-coverage-report-action@v1.3
+            - uses: the-homeless-god/jest-coverage-lerna-monorepo-action@v1.3
               with:
                   github-token: ${{ secrets.GITHUB_TOKEN }}
                   #   threshold: 80 # optional parameter

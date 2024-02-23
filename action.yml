@@ -1,4 +1,4 @@
-name: 'Jest coverage report'
+name: 'Jest coverage lerna monorepo action'
 description: 'Track your code coverage in each pull request.'
 author: 'Marat Zimnurov <zimtir@mail.ru>'
 branding:

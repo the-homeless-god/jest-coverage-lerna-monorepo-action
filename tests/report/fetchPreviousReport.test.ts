@@ -42,7 +42,7 @@ describe('fetchPreviousReport', () => {
             {
                 body: `${getReportTag(
                     DEFAULT_OPTIONS
-                )}\n This is jest-coverage-report-action report`,
+                )}\n This is jest-coverage-lerna-monorepo-action report`,
             },
             {
                 body: 'One more comment',
@@ -66,7 +66,7 @@ describe('fetchPreviousReport', () => {
         ).resolves.toStrictEqual({
             body: `${getReportTag(
                 DEFAULT_OPTIONS
-            )}\n This is jest-coverage-report-action report`,
+            )}\n This is jest-coverage-lerna-monorepo-action report`,
         });
 
         expect(paginate).toBeCalledWith(
@@ -89,7 +89,7 @@ describe('fetchPreviousReport', () => {
             {
                 body: `${getReportTag(
                     DEFAULT_OPTIONS
-                )}\n This is jest-coverage-report-action report`,
+                )}\n This is jest-coverage-lerna-monorepo-action report`,
             },
             {
                 body: 'Another comment',
@@ -97,7 +97,7 @@ describe('fetchPreviousReport', () => {
             {
                 body: `${getReportTag(
                     DEFAULT_OPTIONS
-                )}\n This is jest-coverage-report-action report`,
+                )}\n This is jest-coverage-lerna-monorepo-action report`,
             },
             {
                 body: 'One more comment',
@@ -121,7 +121,7 @@ describe('fetchPreviousReport', () => {
         ).resolves.toStrictEqual({
             body: `${getReportTag(
                 DEFAULT_OPTIONS
-            )}\n This is jest-coverage-report-action report`,
+            )}\n This is jest-coverage-lerna-monorepo-action report`,
         });
     });
 

@@ -26,5 +26,5 @@ const hashOptions = (options: OptionsToHash) => {
 
 export const getReportTag = (options: OptionsToHash) => {
     const optionsHash = hashOptions(options);
-    return `<!-- jest coverage report action for options with hash ${optionsHash} -->`;
+    return `<!-- Jest coverage lerna monorepo action action for options with hash ${optionsHash} -->`;
 };

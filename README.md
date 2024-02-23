@@ -307,7 +307,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-Jest Coverage Report action is made with <3 thanks to these wonderful people
+Jest coverage lerna monorepo action action is made with <3 thanks to these wonderful people
 ([emoji key ✨](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->

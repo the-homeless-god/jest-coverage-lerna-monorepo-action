@@ -31,7 +31,7 @@ jobs:
 
             - name: Publishing to github-pages
               run: |
-                  git config --global user.name 'Jest Coverage Report bot'
+                  git config --global user.name 'Jest coverage lerna monorepo action bot'
                   git config --global user.email 'covbot@users.noreply.github.com'
                   git remote set-url origin https://${github_token}@github.com/${repository}
                   npm run deploy

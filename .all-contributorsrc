@@ -316,7 +316,7 @@
       ]
     }
   ],
-  "projectName": "jest-coverage-report-action",
+  "projectName": "jest-coverage-lerna-monorepo-action",
   "projectOwner": "ArtiomTr",
   "repoType": "github",
   "repoHost": "https://github.com",

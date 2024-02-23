@@ -5,13 +5,13 @@ description: A complete guide how to migrate from version 1.x to version 2.x
 
 # Upgrading to v2
 
-Jest Coverage Report action v2 resolves the architectural issues of the first version, which prevented the addition of new functionality. In addition, second version's behavior is more predictable and understandable.
+Jest coverage lerna monorepo action action v2 resolves the architectural issues of the first version, which prevented the addition of new functionality. In addition, second version's behavior is more predictable and understandable.
 
 Actually, you need to update only your workflow's configuration.
 
 ## Upgrade steps
 
-A few steps need to be completed to fully migrate from `v1` to `v2`. Don't worry if your action unexpectedly fails - this guide will help you to fix all errors. If after completing this guide your action still failing, please create an [issue](https://www.github.com/the-homeless-god/jest-coverage-report-action/issues) - our community is ready to help you!
+A few steps need to be completed to fully migrate from `v1` to `v2`. Don't worry if your action unexpectedly fails - this guide will help you to fix all errors. If after completing this guide your action still failing, please create an [issue](https://www.github.com/the-homeless-god/jest-coverage-lerna-monorepo-action/issues) - our community is ready to help you!
 
 ### 1. Different inputs casing
 
@@ -28,8 +28,8 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
--           - uses: the-homeless-god/jest-coverage-report-action@v1.3
-+           - uses: the-homeless-god/jest-coverage-report-action@v2
+-           - uses: the-homeless-god/jest-coverage-lerna-monorepo-action@v1.3
++           - uses: the-homeless-god/jest-coverage-lerna-monorepo-action@v2
               with:
 -                  github_token: ${{ secrets.GITHUB_TOKEN }}
 +                  github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -42,7 +42,7 @@ jobs:
 
 ### 2. New test script format
 
-In `v2` version `jest-coverage-report-action` uses different format to extract coverage data. If you want to have custom testing script, change it as this example shows:
+In `v2` version `jest-coverage-lerna-monorepo-action` uses different format to extract coverage data. If you want to have custom testing script, change it as this example shows:
 
 ```yaml diff
 with:

@@ -20,19 +20,19 @@ export const Footer = () => (
                 </FooterSection>
                 <FooterSection heading="Repository">
                     <FooterLink
-                        href="https://www.github.com/the-homeless-god/jest-coverage-report-action"
+                        href="https://www.github.com/the-homeless-god/jest-coverage-lerna-monorepo-action"
                         label="GitHub"
                     />
                     <FooterLink
-                        href="https://www.github.com/the-homeless-god/jest-coverage-report-action/issues"
+                        href="https://www.github.com/the-homeless-god/jest-coverage-lerna-monorepo-action/issues"
                         label="Issues"
                     />
                     <FooterLink
-                        href="https://www.github.com/the-homeless-god/jest-coverage-report-action/releases"
+                        href="https://www.github.com/the-homeless-god/jest-coverage-lerna-monorepo-action/releases"
                         label="Releases"
                     />
                     <FooterLink
-                        href="https://github.com/the-homeless-god/jest-coverage-report-action/stargazers"
+                        href="https://github.com/the-homeless-god/jest-coverage-lerna-monorepo-action/stargazers"
                         label="Stars"
                     />
                 </FooterSection>

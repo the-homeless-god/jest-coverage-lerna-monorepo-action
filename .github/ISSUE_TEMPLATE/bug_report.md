@@ -9,9 +9,9 @@ assignees: the-homeless-god
 
 <!--
 Before starting, please do some necessary things:
-📃 Read our Code of Conduct: https://github.com/the-homeless-god/jest-coverage-report-action/blob/master/CODE_OF_CONDUCT.md
+📃 Read our Code of Conduct: https://github.com/the-homeless-god/jest-coverage-lerna-monorepo-action/blob/master/CODE_OF_CONDUCT.md
 🔎 Search existing issues to avoid creating duplicates.
-👴 Make sure that you're not using deprecated version. List of supported versions is here: https://github.com/the-homeless-god/jest-coverage-report-action/blob/master/SECURITY.md
+👴 Make sure that you're not using deprecated version. List of supported versions is here: https://github.com/the-homeless-god/jest-coverage-lerna-monorepo-action/blob/master/SECURITY.md
    Bug reports for versions, that are not supported yet (like rc.x) should be marked with 'next' label.
 
 Also, fill out the form below. Don't worry, feel free to delete sections that are not applicable for your issue.

@@ -38,7 +38,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v1
-            - uses: the-homeless-god/jest-coverage-report-action@v2
+            - uses: the-homeless-god/jest-coverage-lerna-monorepo-action@v2
               with:
                   github-token: \${{ secrets.GITHUB_TOKEN }}
                   #   threshold: 80 # optional parameter
@@ -54,7 +54,7 @@ const sharedHeadingProps: HeadingProps = {
 const Home = () => (
     <React.Fragment>
         <Head>
-            <title>Jest coverage report action</title>
+            <title>Jest coverage lerna monorepo action action</title>
             <meta
                 name="description"
                 content="Track your code coverage in every pull request"

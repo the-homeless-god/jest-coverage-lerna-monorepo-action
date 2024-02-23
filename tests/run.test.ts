@@ -337,7 +337,7 @@ describe('run', () => {
             errors: [new Error('error')],
         } as CollectedData<JsonReport>);
         await run(dataCollectorMock);
-        expect(setFailed).toBeCalledWith('Jest coverage report action failed');
+        expect(setFailed).toBeCalledWith('Jest coverage lerna monorepo action action failed');
     });
 
     it('should succeed if there are no errors in dataCollector', async () => {

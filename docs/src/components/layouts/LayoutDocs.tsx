@@ -23,7 +23,7 @@ export const LayoutDocs = ({ children, meta }: LayoutProps) => {
     return (
         <React.Fragment>
             <Head>
-                <title>{meta.title} | Jest Coverage Report action</title>
+                <title>{meta.title} | Jest coverage lerna monorepo action action</title>
                 <meta name="description" content={meta.description as string} />
             </Head>
             <Container marginY="5" minHeight="100vh" maxWidth="container.lg">
@@ -59,7 +59,7 @@ export const LayoutDocs = ({ children, meta }: LayoutProps) => {
                         )}
                     </Box>
                     <MdLink
-                        href={`https://github.com/the-homeless-god/jest-coverage-report-action/tree/master/docs/src/pages${pathname}.md`}
+                        href={`https://github.com/the-homeless-god/jest-coverage-lerna-monorepo-action/tree/master/docs/src/pages${pathname}.md`}
                     >
                         View this page on GitHub
                     </MdLink>
