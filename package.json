@@ -1,7 +1,7 @@
 {
     "name": "jest-coverage-report-action",
     "private": true,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "main": "dist/index.js",
     "scripts": {
@@ -14,7 +14,7 @@
         "lint": "eslint ."
     },
     "keywords": [],
-    "author": "Artiom Tretjakovas <artiom.tretjakovas2@gmail.com>",
+    "contributors": ["Artiom Tretjakovas <artiom.tretjakovas2@gmail.com>", "Marat Zimnurov <zimtir@mail.ru>"],
     "license": "MIT",
     "dependencies": {
         "@actions/core": "^1.10.0",
