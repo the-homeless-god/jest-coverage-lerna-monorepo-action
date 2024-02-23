@@ -367,5 +367,5 @@ Jest Coverage Report action is made with <3 thanks to these wonderful people
 
 ## License
 
-MIT © [Marat Zimnurov](https://github.com/ArtiomTr)
+MIT © [Marat Zimnurov](https://github.com/the-homeless-god)
 MIT © [Marat Zimnurov](https://github.com/the-homeless-god)

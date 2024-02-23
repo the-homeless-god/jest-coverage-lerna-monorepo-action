@@ -9,7 +9,7 @@ assignees: ''
 
 <!--
 Before starting, please do some necessary things:
-📃 Read our Code of Conduct: https://github.com/ArtiomTr/jest-coverage-report-action/blob/master/CODE_OF_CONDUCT.md
+📃 Read our Code of Conduct: https://github.com/the-homeless-god/jest-coverage-report-action/blob/master/CODE_OF_CONDUCT.md
 🔎 Search existing issues to avoid creating duplicates.
 
 Also, fill out the form below. Don't worry, feel free to delete sections that are not applicable for your request.

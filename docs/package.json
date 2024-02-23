@@ -10,7 +10,10 @@
         "deploy": "node tools/scripts/deploy.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Artiom Tretjakovas",
+    "contributors": [
+        "Artiom Tretjakovas <artiom.tretjakovas2@gmail.com>",
+        "Marat Zimnurov <zimtir@mail.ru>"
+    ],
     "license": "MIT",
     "dependencies": {
         "@chakra-ui/react": "^1.6.3",

@@ -20,29 +20,29 @@ export const Footer = () => (
                 </FooterSection>
                 <FooterSection heading="Repository">
                     <FooterLink
-                        href="https://www.github.com/ArtiomTr/jest-coverage-report-action"
+                        href="https://www.github.com/the-homeless-god/jest-coverage-report-action"
                         label="GitHub"
                     />
                     <FooterLink
-                        href="https://www.github.com/ArtiomTr/jest-coverage-report-action/issues"
+                        href="https://www.github.com/the-homeless-god/jest-coverage-report-action/issues"
                         label="Issues"
                     />
                     <FooterLink
-                        href="https://www.github.com/ArtiomTr/jest-coverage-report-action/releases"
+                        href="https://www.github.com/the-homeless-god/jest-coverage-report-action/releases"
                         label="Releases"
                     />
                     <FooterLink
-                        href="https://github.com/ArtiomTr/jest-coverage-report-action/stargazers"
+                        href="https://github.com/the-homeless-god/jest-coverage-report-action/stargazers"
                         label="Stars"
                     />
                 </FooterSection>
                 <FooterSection heading="Contacts">
                     <FooterLink
-                        href="https://www.github.com/ArtiomTr/"
+                        href="https://www.github.com/the-homeless-god/"
                         label="Founder"
                     />
                     <FooterLink
-                        href="mailto:artiom.tretjakovas2@gmail.com"
+                        href="mailto:zimtir@mail.ru"
                         label="Email"
                     />
                 </FooterSection>
