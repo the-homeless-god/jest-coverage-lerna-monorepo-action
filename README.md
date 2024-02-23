@@ -45,7 +45,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3
-            - uses: the-homeless-god/jest-coverage-lerna-monorepo-action@v1.0.1
+            - uses: the-homeless-god/jest-coverage-lerna-monorepo-action@1.0.1
 ```
 
 3. Pay attention to the action parameters. You can specify custom [threshold](#specify-threshold) or [test script](#customizing-test-script)
@@ -78,7 +78,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3
-            - uses: the-homeless-god/jest-coverage-lerna-monorepo-action@v1.0.1
+            - uses: the-homeless-god/jest-coverage-lerna-monorepo-action@1.0.1
 ```
 
 > **Warning**
@@ -233,13 +233,13 @@ Accepted values are:
 By default, action attaches comment to a pull request or commit. However, if you want to use other action for publishing report, you can specify `output: report-markdown`:
 
 ```yaml
-- uses: the-homeless-god/jest-coverage-lerna-monorepo-action@v1.0.1
+- uses: the-homeless-god/jest-coverage-lerna-monorepo-action@1.0.1
     # give the id for the step, to access outputs in another step.
     id: coverage
     with:
         # tell to the action to not attach comment.
         output: report-markdown
-- uses: marocchino/sticky-pull-request-comment@v1.0.1
+- uses: marocchino/sticky-pull-request-comment@1.0.1
     with:
         # pass output from the previous step by id.
         message: ${{ steps.coverage.outputs.report }}
@@ -287,7 +287,7 @@ jobs:
             - uses: actions/checkout@v1
             - uses: jwalton/gh-find-current-pr@v1
                 id: findPr
-            - uses: the-homeless-god/jest-coverage-lerna-monorepo-action@v1.0.1
+            - uses: the-homeless-god/jest-coverage-lerna-monorepo-action@1.0.1
                 with:
                    prnumber: ${{ steps.findPr.outputs.number }}
 ```
