@@ -64,6 +64,24 @@ HttpError: Resource not accessible by integration
     at async S_ (/home/runner/work/_actions/the-homeless-god/jest-coverage-lerna-monorepo-action/v2/dist/index.js:64:2294)
 ```
 
+Then you have two options:
+
+1. Enable priviliges
+
+- `If you're using org. repo:` Allow on org. level the following - https://github.com/YOUR_ORG_NAME/settings/actions
+
+  <img width="867" alt="image" src="https://github.com/the-homeless-god/jest-coverage-lerna-monorepo-action/assets/32175240/91cb98f3-cb65-4b82-941b-24c70a6790a4">
+
+
+- Repeat same on the repo level - https://github.com/YOUR_REPOSITORY/settings/actions
+
+  <img width="748" alt="image" src="https://github.com/the-homeless-god/jest-coverage-lerna-monorepo-action/assets/32175240/396fae33-da6a-41e3-aadd-d37dfe8eeddb">
+
+
+It should work
+
+2. **OR ANOTHER OPTION:** Follow to change the trigger
+
 It means that action is running with low privileges. By default, `pull_request` event doesn't have any write permissions, when PR is coming from fork. To fix that, change trigger action to `pull_request_target`:
 
 ```yml
